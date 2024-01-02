@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: blanchedalmond;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #F1E4C3;
+    overflow: hidden;
+    width: 100%;
+    position: center;
+    left: 0;
+    top: 0;
+    background: #EADDCA;
+    z-index: 9;
+    display: flex;
+    text-align: center;
+}
+.profile{
+    width: 50px;
+    height: 45px;
+  }
+  .title1{
+    margin: 10;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: end;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #5c4033;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #EADDCA;
+    color: #7e5252;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #834333;
+    color: white;
+  }
+.left-container{
+    padding-left: 10px;
+    float: left;
+}
+.right-container{
+    float: right;
+    display: block;
+    margin-left: auto;
+}
+.login-link{
+    
+    color: #fff;
+    opacity: 0.9;
+    
+    font-weight: 700;
+    font-size: 15px;
+   
+    text-decoration: none;
+}
+.search-box{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 47px;
+    color: #834333;
+    width: 150px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+   
+}
+.search-box:focus{
+    width: 400px;
+    border-color: #c6a969;
+}
+.topnav a.search-icon{
+  background-color: #834333;
+  color: white;
+  float: right;
+}
+.search-icon{
+  background-color: #800020;
+  color: beige;
+  padding-top: 10px;
+  margin: auto;
+  float: left;
+}
+  body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(LP/room.webp);
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.website-name{
+  font-size: 100px;
+}
+.website-line{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.book-now{
+  background: #EADDCA;
+  height: 30px;
+  padding: 7px 20px;
+  color: #5c4033;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0 10px;
+}
+.book-now:hover{
+  background-color: #5c4033;
+  color: #EADDCA;
+}
+.title{
+  padding: 2px;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: #834333;
+  color: #EADDCA;
+}
+.container{
+  padding: 20px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  border-radius: 20%;
+
+}
+.row img {
+  width:100%;
+  border-spacing: 2px;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10%;
+  background-color: #834333;
+  
+}
+
+.hotel-body{
+  margin: 10px;
+  padding: 10px;
+  background: #834333;
+  color: #EADDCA;
+  box-sizing: border-box;
+  border: #800020;
+  border-radius: 10px;
+  border-spacing: 2px;
+}
+.hotel-name{
+  color: wheat;
+  font-size: 30px;
+  padding-left:10px ;
+}
+.hotel-name:hover{
+  color: #800020;
+}
+.desc{
+  padding: 10px;
+}
+.footer{
+  background-color: gray;
+  color: black;
+  border-style: solid;
+}
+.footnavi{
+  padding: 60px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border-radius: 20%;
+  justify-content: space-between;
+}
+.headingname{
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 5px;
+  color: #5c4033;
+}
+.headingname:hover{
+  color: #EADDCA;
+}
+.footnav-list{
+  padding-left: 10px;
+ 
+}
+.footer-text{
+  width: 100%;
+  padding-left: 0;
+}
+.block{
+  color: black;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.block:hover{
+  color: #EADDCA;
+}
+.footerbottom{
+  padding-top: 40px;
+}
+.footer-text{
+  padding: 40px;
+  width: 100%;
+}
